@@ -1,8 +1,11 @@
-# pip install google-genai
-
+# # pip install google-genai
 from google import genai
 
-client = genai.Client(api_key='Put your API key here')
+client = genai.Client(api_key='PUT YOUR API KEY HERE')
+
+# Create a chat session
+chat = client.chats.create(model='PUT MODEL HERE')
+# example gemini-2.5-flash
 
 while True:
     question = input('You: ')
@@ -10,9 +13,7 @@ while True:
     if question.lower() == 'exit':
         break
 
-    response = client.models.generate_content(
-        model = 'Your model of choice',
-        contents = question
-    )
+    # Send message through the chat object
+    response = chat.send_message(question)
 
     print('Gemini:', response.text)
