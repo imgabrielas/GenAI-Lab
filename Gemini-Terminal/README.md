@@ -1,5 +1,7 @@
 # Gemini Chatbot (IDE Terminal)
 
+![Demo](demo.gif)
+
 A really simple terminal chatbot that talks to Google's Gemini API. Before running it, you need to:
 
 1. **Install the SDK.** The import at the top of the file is left as a comment — copy it and run it yourself:
