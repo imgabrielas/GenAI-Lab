@@ -5,3 +5,4 @@ A collection of small AI-related projects for me to play around with.
 | Project | Description |
 |---|---|
 | [Gemini Chatbot (IDE Terminal)](Gemini-Terminal/) | A simple terminal chatbot using Google's Gemini API. |
+| [Ekonomek](Ekonomek/) | A notebook chatbot persona (UEW's gnome mascot) using Gemini for chat, voice input/output, and semantic search. |
